@@ -1,2 +1,176 @@
 # RCKangaroo_modify
 RCKangaroo_modify
+tested at 75 bit 
+Private Key: 0000000000000000000000000000000000000000000004C5CE114686A1336E07
+Public Key X: 726B574F193E374686D8E12BC6E4142ADEB06770E0A2856F5E4AD89F66044755
+Public Key Y: 9B15322E6707090A4DB3F09C7E6632A26DB57F03EB07B40979FC01C827E1B0A3
+Range: 75-bit
+Found at: 99483648000 operations
+Collisions checked: 0
+Valid collisions: 0
+
+RUN AT 135bit Puzzle :
+D:\Crypto\btc_hunter\src\x64\Release>RCKangaroo.exe -gpu 0 -range 135 -start 4000000000000000000000000000000000 -pubkey 02145d2611c823a396ef6712ce0f712f09b9b4f3135e3e0aa3230fb9b6d08d1e16 -tames tames_135_16.bin -dp 16 -max 10
+********************************************************************************
+*                        Modified by D O M S (c) 2025                          *
+*                  COLLISION PERSISTENCE & AUTO-RESUME SYSTEM                  *
+*  Supports flexible range: 75-bit to 170-bit with collision tracking          *
+********************************************************************************
+
+Windows version
+[AUTO-SAVE] Collisions will be saved to: collisions_135_bit_14542611.bin
+Tames file exists and public key provided, using SOLVING MODE
+CUDA devices: 1, CUDA driver/runtime: 12.9/12.9
+GPU 0: NVIDIA GeForce RTX 3070, 8.00 GB, 46 CUs, cap 8.6, PCI 1, L2 size: 4096 KB
+Total GPUs for work: 1
+
+SOLVING MODE - 135-bit range
+
+=== MAIN: PUBLIC KEY VERIFICATION ===
+Public key from command line:
+X: 145D2611C823A396EF6712CE0F712F09B9B4F3135E3E0AA3230FB9B6D08D1E16
+Y: 667A05E9A1BDD6F70142B66558BD12CE2C0F9CBC7001B20C8A6A109C80DC5330
+=== END MAIN VERIFICATION ===
+
+DEBUG: Using original public key as target (NO offset)
+=== 135-BIT PUZZLE SOLVER ===
+Search Range: 4000000000000000000000000000000000 to 7FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Range size: 2^134 = 21778071482940061661655974875633165533184 keys
+MODE: LARGE RANGE CHALLENGE
+Search Range: 4000000000000000000000000000000000 to 7FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Range size: 4000000000000000000000000000000000 (hex)
+Total keys in range: 2^134 = 21778071482940061661655974875633165533184
+Using DP: 16, GenDP: 0 (auto-adjusted for 135-bit range)
+Collision tracking: ENABLED (collisions_135_bit_14542611.bin)
+Solving public key
+X: 145D2611C823A396EF6712CE0F712F09B9B4F3135E3E0AA3230FB9B6D08D1E16
+Y: 667A05E9A1BDD6F70142B66558BD12CE2C0F9CBC7001B20C8A6A109C80DC5330
+SOLVING MODE - Using provided public key as target
+Target public key:
+  X: 145D2611C823A396EF6712CE0F712F09B9B4F3135E3E0AA3230FB9B6D08D1E16
+  Y: 667A05E9A1BDD6F70142B66558BD12CE2C0F9CBC7001B20C8A6A109C80DC5330
+Collision tracking initialized: 0 collisions from previous runs
+
+=== DEBUG: RANGE VERIFICATION ===
+Search Start: 0000000000000000000000000000004000000000000000000000000000000000
+Search End:   0000000000000000000000000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Range Size:   0000000000000000000000000000004000000000000000000000000000000000
+Range in bits: 135 (2^134 to 2^135-1)
+135-BIT MODE: Using optimized parameters
+Current Start: 0000000000000000000000000000004000000000000000000000000000000000
+Γ£à Start value is within 135-bit range
+SOLVING MODE: Solving for provided public key
+Start position for kangaroos (start * G):
+Start * G -> X: CBB434AA7AE1700DCD15B20B17464817EC11715050E0FA192FFE9C29A673059F
+Start * G -> Y: 4A1A200AB4DABD17562D492338B5DFAD41D45E4F0AD5F845B7DA9642227C070C
+Target PubKey X: 145D2611C823A396EF6712CE0F712F09B9B4F3135E3E0AA3230FB9B6D08D1E16
+Target PubKey Y: 667A05E9A1BDD6F70142B66558BD12CE2C0F9CBC7001B20C8A6A109C80DC5330
+Γ£à Target point appears valid (non-zero coordinates)
+=== END RANGE DEBUG ===
+
+Preloaded tames: 134128603 entries
+Verifying tame file integrity...
+Header state check:
+  Current range: 135 (expected: 135)
+  Claimed entries: 0
+  Actual entries: 134128603
+
+=== ENSURING PERFECT HEADER ===
+File size: 4325669984 bytes = 123590541 tames
+Γ£à Header perfected: 123590541 tames
+Γ£à Database internal count forced: 123590541 tames
+Updated tames count: 123590541 entries
+Tame file validation:
+  File header range: 135
+  File header claimed entries: 123590541
+  File size: 4325669984 bytes
+  Expected size: ~4325669959 bytes
+Γ£à Tame file validation: STRUCTURE OK
+Γ£à Tame file structure validation: PASSED
+Γ£à Header repair successful! Proceeding with search...
+
+=== DEBUG: TAME FILE INTEGRITY ===
+Tames loaded: 134128603
+Tame file header range: 135
+Current search range: 135
+Γ£à Tame file range matches search range
+Tame file size: 4325669984 bytes
+Expected size: ~4325669959 bytes
+Γ£à File size matches expected size
+Sampling first few points from buffer...
+=== END TAME DEBUG ===
+
+Using default DP 16 for 135-bit range
+
+Solving point: Range 135 bits, DP 16, start...
+Tames work equivalent: 2^42.999 operations
+Γ£à Memory usage OK: ~6.2 GB (within 32GB limit)
+OPTIMAL Estimation breakdown for 135-bit range:
+  Base ops: 2^44.678 (divisor=3.0)
+  Efficiency: 0.60
+  DP factor: 1.042 (DP=16)
+  Tames factor: 0.699 (tames=134141127)
+  Memory factor: 1.000
+  DP efficiency: 1.000
+  Generation penalty: 0.0%
+  Final estimate: 2^43.484 operations
+Realistic estimate for 135-bit range: 2^43.484 operations
+Estimated RAM for solving: 6.442 GB
+Max operations: 2^46.806 (10.0x estimated)
+Total kangaroos: 1507328
+Configuration analysis:
+  Operations per kangaroo: 2^22.960
+  DPs per kangaroo: 124.5
+  Status: Excellent - consider increasing DP to 16
+Optimized jumps for 135-bit: Tames(+62), Wild1(-108), Wild2(-102)
+Jump sizes: Small~2^62, Medium~2^108, Large~2^102
+CONFIRMED gPntToSolve X: 145D2611C823A396EF6712CE0F712F09B9B4F3135E3E0AA3230FB9B6D08D1E16
+CONFIRMED gPntToSolve Y: 667A05E9A1BDD6F70142B66558BD12CE2C0F9CBC7001B20C8A6A109C80DC5330
+
+=== GPU PREPARATION DEBUG ===
+gPntToSolve X: 145D2611C823A396EF6712CE0F712F09B9B4F3135E3E0AA3230FB9B6D08D1E16
+PntToSolve X: 145D2611C823A396EF6712CE0F712F09B9B4F3135E3E0AA3230FB9B6D08D1E16
+=== END GPU DEBUG ===
+
+GPU 0: allocated 4439 MB, 1507328 kangaroos. OldGpuMode: Yes
+
+Search started...
+Collision detection active...
+
+GPU 0: Initializing 135-bit kangaroo search...
+135-BIT RANGE: [0000000000000000000000000000004000000000000000000000000000000000, 0000000000000000000000000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF]
+Should span: 0x4... to 0x7...
+
+Kangaroo Distribution:
+  TAMES:  [0x4... - 0x5...] (first ~1/3)
+  WILD1:  [0x5... - 0x6...] (second ~1/3)
+  WILD2:  [0x6... - 0x7...] (last ~1/3)
+
+TAME 0: 00000000000000000000000000000047DFC2E1E94A201E3B661438C0229E5148
+TAME 1: 000000000000000000000000000000480A79F649CAE122A810F4EAC74B3B5FB2
+TAME 2: 000000000000000000000000000000536C0A472C9429214A673D610F8875C044
+WILD1 502442: 00000000000000000000000000000066E2B12C28960CF4268A2D63FA73568E4C
+WILD2 1004885: 000000000000000000000000000000717B28C66B298412933618E20C3ACB4EC2
+Final distribution: Tames=502442, Wild1=502443, Wild2=502443
+? All kangaroos properly distributed across 135-bit range
+
+Actual Zone Boundaries:
+TAME:  0000000000000000000000000000004000000000000000000000000000000000 to 0000000000000000000000000000005800000000000000000000000000000000
+WILD1: 0000000000000000000000000000005800000000000000000000000000000001 to 0000000000000000000000000000007000000000000000000000000000000001
+WILD2: 0000000000000000000000000000007000000000000000000000000000000002 to 0000000000000000000000000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+[SOLVE] 3.1% | 2^38.484 ops | 2374 MKeys/s | Collisions: 0 | ETA: 0d:01h:28mTAME private key range: 0000000000000000000000000000007DEE1A35860E87D7F9A1F02B04ECB626B3
+WILD private key range: 0000000000000000000000000000007DEE1A35860E87D7F9A1F02B04ECB626B3
+SELF-COLLISION DETECTED - Skipping (same distance)
+SELF-COLLISION DETECTED - Skipping (same distance)
+Collision Error
+[SOLVE] 100.0% | 2^43.665 ops | 2356 MKeys/s | Collisions: 0 | ETA: 0d:00h:00mTAME private key range: 00000000000000000000000000000043905793BABF5556CA37164394AEF5A498
+WILD private key range: 00000000000000000000000000000043905793BABF5556CA37164394AEF5A498
+SELF-COLLISION DETECTED - Skipping (same distance)
+SELF-COLLISION DETECTED - Skipping (same distance)
+Collision Error
+[SOLVE] 100.0% | 2^44.234 ops | 2374 MKeys/s | Collisions: 0 | ETA: 0d:00h:00mTAME private key range: 000000000000000000000000000000762844B27117E47F5CCA03D97E254D5DB8
+WILD private key range: 000000000000000000000000000000762844B27117E47F5CCA03D97E254D5DB8
+SELF-COLLISION DETECTED - Skipping (same distance)
+SELF-COLLISION DETECTED - Skipping (same distance)
+Collision Error
+[SOLVE] 100.0% | 2^44.641 ops | 2356 MKeys/s | Collisions: 0 | ETA: 0d:00h:00m
