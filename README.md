@@ -174,3 +174,10 @@ SELF-COLLISION DETECTED - Skipping (same distance)
 SELF-COLLISION DETECTED - Skipping (same distance)
 Collision Error
 [SOLVE] 100.0% | 2^44.641 ops | 2356 MKeys/s | Collisions: 0 | ETA: 0d:00h:00m
+
+compile with visual studio 2022 
+CUDA 12.9 
+thanks to (c) 2024, RetiredCoder (RC)
+
+DONATE : 
+btc : 1GXcqgg6uMUf28b2jxMnoVmMjzJQ2ojveQ
